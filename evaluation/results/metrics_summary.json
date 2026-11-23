@@ -1,0 +1,71 @@
+{
+  "num_evaluated_users": 10,
+  "comparison": [
+    {
+      "system": "Baseline RAG Memory",
+      "extraction": {
+        "memory_recall": 1.0,
+        "memory_precision": 0.5,
+        "extraction_f1": 0.67,
+        "false_memory_resistance": 0.0
+      },
+      "updating": {
+        "update_accuracy": 0.5,
+        "update_hallucination_rate": 0.4
+      },
+      "qa": {
+        "qa_accuracy": 0.6,
+        "qa_hallucination_rate": 0.385,
+        "citation_precision": 0.33,
+        "groundedness_score": 0.7
+      },
+      "policy": {
+        "policy_compliance_rate": 0.0
+      }
+    },
+    {
+      "system": "Unverified Store",
+      "extraction": {
+        "memory_recall": 1.0,
+        "memory_precision": 0.75,
+        "extraction_f1": 0.85,
+        "false_memory_resistance": 0.7
+      },
+      "updating": {
+        "update_accuracy": 0.75,
+        "update_hallucination_rate": 0.2
+      },
+      "qa": {
+        "qa_accuracy": 0.75,
+        "qa_hallucination_rate": 0.18,
+        "citation_precision": 0.65,
+        "groundedness_score": 0.8
+      },
+      "policy": {
+        "policy_compliance_rate": 0.5
+      }
+    },
+    {
+      "system": "VeriMem Engine",
+      "extraction": {
+        "memory_recall": 1.0,
+        "memory_precision": 0.95,
+        "extraction_f1": 0.97,
+        "false_memory_resistance": 0.9
+      },
+      "updating": {
+        "update_accuracy": 0.95,
+        "update_hallucination_rate": 0.05
+      },
+      "qa": {
+        "qa_accuracy": 0.875,
+        "qa_hallucination_rate": 0.125,
+        "citation_precision": 0.92,
+        "groundedness_score": 0.91
+      },
+      "policy": {
+        "policy_compliance_rate": 0.88
+      }
+    }
+  ]
+}

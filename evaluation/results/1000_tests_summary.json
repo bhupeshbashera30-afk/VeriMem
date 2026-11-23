@@ -1,0 +1,39 @@
+{
+  "total_test_scenarios": 1000,
+  "execution_time_seconds": 13849.95,
+  "overall_accuracy": 0.875,
+  "conflict_resolution_rate": 0.95,
+  "qa_accuracy": 0.875,
+  "hallucination_rate": 0.125,
+  "hallucination_mitigation_rate": 87.5,
+  "category_breakdown": {
+    "preference_shifts": {
+      "total": 250,
+      "passed": 250,
+      "retired_old_ok": 250,
+      "qa_correct": 250,
+      "hallucinated": 0
+    },
+    "identity_updates": {
+      "total": 250,
+      "passed": 250,
+      "retired_old_ok": 200,
+      "qa_correct": 250,
+      "hallucinated": 0
+    },
+    "goal_shifts": {
+      "total": 250,
+      "passed": 250,
+      "retired_old_ok": 250,
+      "qa_correct": 250,
+      "hallucinated": 0
+    },
+    "qa_grounding_policy": {
+      "total": 250,
+      "passed": 125,
+      "retired_old_ok": 250,
+      "qa_correct": 125,
+      "hallucinated": 125
+    }
+  }
+}

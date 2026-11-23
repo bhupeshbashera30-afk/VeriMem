@@ -1,0 +1,18 @@
+[
+  {
+    "session_id": "s_001",
+    "user_id": "u_001",
+    "turns": [
+      {
+        "id": "t_001",
+        "speaker": "user",
+        "text": "I am making a major project on hallucination-aware memory. It should include natural language programming and agentic AI."
+      },
+      {
+        "id": "t_002",
+        "speaker": "assistant",
+        "text": "Since you are a final-year computer science student, this will fit your course."
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+System,memory_recall,memory_precision,extraction_f1,false_memory_resistance,update_accuracy,update_hallucination_rate,qa_accuracy,qa_hallucination_rate,citation_precision,groundedness_score,policy_compliance_rate
+Baseline RAG Memory,1.0,0.5,0.67,0.0,0.5,0.4,0.6,0.385,0.33,0.7,0.0
+Unverified Store,1.0,0.75,0.85,0.7,0.75,0.2,0.75,0.18,0.65,0.8,0.5
+VeriMem Engine,1.0,0.95,0.97,0.9,0.95,0.05,0.875,0.125,0.92,0.91,0.88

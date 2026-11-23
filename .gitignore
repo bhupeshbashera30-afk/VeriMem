@@ -1,0 +1,23 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data and secrets
+*.db
+*.sqlite3
+*.db-journal
+.env
+.venv/
+venv/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+
+# Logs
+*.log
